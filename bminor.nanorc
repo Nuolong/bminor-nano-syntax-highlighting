@@ -11,15 +11,13 @@ color brightgreen "\<(array|boolean|char|integer|string)\>"
 color brightyellow "\<(for|while|if|else|return|print)\>"
 color orange "\<(true|false)\>"
 
-
-# Strings.  In general you will want your strings and comments to come last,
-# because highlighting rules are applied in the order they are read in.
+# String/Char Literals
 color brightblue ""([^"]|\\")*"" "#[[:space:]]*include[[:space:]]+<[^[:blank:]=]*>"
 color brightmagenta "'([^'\]|\\.)*'|'''"
 
-# Comments.
+# Comments
 color cyan "//.*"
 color cyan start="/\*" end="\*/"
 
-# Trailing whitespace.
+# Trailing Whitespace.
 color ,green "[[:space:]]+$"
