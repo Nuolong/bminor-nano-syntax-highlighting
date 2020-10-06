@@ -12,3 +12,8 @@ Similarly, you can include any of the other syntax highlighters already provided
 
 ## Preview 
 ![Example of B-Minor Syntax Highlighting in nano](https://yld.me/raw/cek4.png)
+
+## Uninstallation
+Running ```make uninstall``` will remove the syntax file from the directory it was installed to.
+
+## [Vim Alternative](https://github.com/ginglis13/bminor-vim-syntax-highlighting)
