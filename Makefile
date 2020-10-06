@@ -13,4 +13,4 @@ uninstall:
 	sed -i '/include \/usr\/share\/nano\/bminor.nanorc/d' ~/.nanorc
 
 uninstall-curr:
-	sed -i 's;include $(ROOT_DIR)/bminor.nanorc;;' ~/.nanorc
+	sed -i '\;include $(ROOT_DIR)/bminor.nanorc;d' ~/.nanorc
